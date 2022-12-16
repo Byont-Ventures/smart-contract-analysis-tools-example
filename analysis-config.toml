@@ -1,6 +1,4 @@
 [environment]
-# project-root is used to find foundry.toml and use it's configuration as well.
-project_root = "/home/enzoevers/smart-contract-formal-verification"
 security_scans_rel_path = "./security-scans"
 source_rel_path = "./src/smart-contracts"
 remappings = [
@@ -23,7 +21,7 @@ name = "VeriAuctionTokenForEth_problems"
 report_custom_name = ""
 
 [mythril]
-enabled = false
+enabled = true
 
 [slither]
 enabled = true
